@@ -8,6 +8,6 @@ namespace cppbass {
 	}
 	bool BASS_INIT();
 	bool BASS_Start();
-	uint32_t BASS_StreamCreateFile(LPCWSTR str);
+	uint32_t BASS_StreamCreateFile(LPCWSTR str, int flag);
 	void BASS_ChannelPlay(uint32_t handle);
 }
