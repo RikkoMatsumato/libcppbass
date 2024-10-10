@@ -23,8 +23,8 @@ bool cppbass::BASS_Start()
 	}
 }
 
-uint32_t cppbass::BASS_StreamCreateFile(LPCWSTR str, int flag) {
-	auto BASS_StreamCreateFile = GetDLL().get_function<uint32_t(bool, LPCWSTR, int, int, int)>("BASS_StreamCreateFile");
+uint32_t cppbass::BASS_StreamCreateFile(LPCSTR str, int flag) {
+	auto BASS_StreamCreateFile = GetDLL().get_function<uint32_t(bool, LPCSTR, int, int, int)>("BASS_StreamCreateFile");
 	return BASS_StreamCreateFile(false, str, 0, 0, flag);
 }
 
