@@ -1,0 +1,7 @@
+﻿  bass.cpp
+  main.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 178 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  ExampleProgram-BassDLL.vcxproj -> C:\Users\aqax\source\repos\ExampleProgram-BassDLL\x64\Release\ExampleProgram-BassDLL.exe
