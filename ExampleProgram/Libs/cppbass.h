@@ -2,7 +2,7 @@
 #include <dylib.hpp>
 #define BASS_LOOP 4
 namespace cppbass {
-	dylib GetDLL() {
+	inline dylib GetDLL() {
 		dylib lib(".\\lib", "bass");
 		return lib;
 	}
