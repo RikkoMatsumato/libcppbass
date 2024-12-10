@@ -3,4 +3,4 @@ This is my First Library for Un4seen BASS(You need BASS DLL Module for this Libr
 
 ## Donation!!!
 
-[Patreon](https://patreon.com/riritoninigaya)
+Coming Soon!!!
